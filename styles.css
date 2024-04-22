@@ -1,0 +1,125 @@
+/* Layout */
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    background-color: #d9ed92;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+}
+
+.attraction-head {
+    text-align: center;
+}
+
+.attraction-container, .lodging-container, .dining-container, .transportation-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.attraction-list {
+    text-align: center;
+    margin: 100px 0;
+}
+hr.solid {
+    border-top: 4px solid black;
+    margin-bottom: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;  
+}
+
+.lodging-note, .dining-note, .transportation-note {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.faq {
+    margin: 80px 0;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 40px;
+}
+
+#footnote {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+button {
+    margin-right: 20px;
+}
+
+.faq-list li {
+    margin: 10px;
+}
+
+/* Images */
+#volcano-img {
+    margin-top: 20px;
+    width: 700px;
+}
+
+#beach-img {
+    width: 800px;
+}
+
+#hotel-img1 {
+    width: 600px;
+}
+.attraction-img {
+    width: 150px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* Links */
+
+h1 a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+h1 a:hover {
+    color: #EF5B5B;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #EF5B5B;
+}
