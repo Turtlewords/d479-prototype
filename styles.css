@@ -72,6 +72,10 @@ button {
     margin: 10px;
 }
 
+.caption-text {
+    font-size: 12px;
+}
+
 /* Images */
 #volcano-img {
     margin-top: 20px;
